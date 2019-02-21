@@ -34,7 +34,24 @@
       "plugin:vue/essential",
       "@vue/prettier"
     ],
-    "rules": {},
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "quotes": [
+        "error",
+        "double",
+        {
+          "avoidEscape": true,
+          "allowTemplateLiterals": true
+        }
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
